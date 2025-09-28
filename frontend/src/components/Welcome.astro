@@ -1,0 +1,74 @@
+
+
+<main>
+<section class="login_section">
+    <div class="animation_icon_uppe">
+
+    </div>
+    <div class="login_components">
+        <h1>Usuario generado por la universidad</h1>
+        <input type="text" name="username_input" id="username_input">
+        <h1>Contraseña generada por la universidad</h1>
+        <input type="password" name="password_input" id="password_input">
+        <a class="recover_password" href="">Olvidaste tu Contraseña ??</a>
+        <button class="button_submit" type="submit">ENTRAR</button>
+    </div>
+</section>
+<section class="image_section">
+    <img src="../assets/Uppe_pasto_imagen.jpg" alt="Imagen del pasto en la uppe" sizes="" srcset="">
+</section>
+</main>
+
+<style>
+main{
+    display: flex;
+}
+
+.login_section{
+    display: grid;
+    flex-basis: 40%;
+}
+.login_components{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 50;
+    justify-self: center;
+    border-bottom: .5px solid black;
+}
+
+input{
+    background-color: #F3F3F3;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.recover_password{
+    color: #38B6FF;
+    justify-self: center;
+}
+
+.button_submit:hover{
+    background-color: #001736;
+    transition: background-color .4s ease;
+}
+.button_submit{
+    background-color: #38B6FF;
+    border: hidden;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 20;
+    color: white;
+    box-shadow: 2px 3px 2px gainsboro;
+    margin-top: 35px;
+    height: 50px;
+    width: 250px;
+    justify-self: center;
+}
+</style>
