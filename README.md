@@ -41,7 +41,7 @@ El sistema se implementa utilizando las siguientes herramientas:
 -----Instalación y ejecución [Pendiente] -----
 
 Clonar el repositorio:
-git clone https://github.com/usuario/proyecto-biblioteca.git
+git clone https://github.com/MEndozainc-dev/Biblioteca-UPPE.git
 
 -----Autores-----
 
